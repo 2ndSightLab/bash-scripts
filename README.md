@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Startup Script for Mac 
 * from @2ndSightLab 
 * author: @teriradichel on X
@@ -10,4 +10,4 @@
 # linux-mac-scripts
 
 Most of thee are written for EC2 but some work on mac as well.
->>>>>>> 1e698850a6ca7928509fd589ac0187bb6b83c6da
+
