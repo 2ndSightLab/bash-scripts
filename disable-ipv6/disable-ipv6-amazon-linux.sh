@@ -1,4 +1,7 @@
 #!/bin/bash
+
+Note: Aso removes ipv6 from SSH
+
 # 1. Disable IPv6 at the kernel level (Most reliable for AL2023)
 echo "Disabling IPv6 in kernel boot parameters..."
 sudo grubby --update-kernel=ALL --args="ipv6.disable=1"
