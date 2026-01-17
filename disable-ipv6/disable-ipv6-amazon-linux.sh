@@ -1,6 +1,8 @@
 #!/bin/bash
 
-Note: Aso removes ipv6 from SSH
+# Note: Also removes ipv6 from ssh 
+# check no ip46 on system by using this command:
+# ifconfig
 
 # 1. Disable IPv6 at the kernel level (Most reliable for AL2023)
 echo "Disabling IPv6 in kernel boot parameters..."
