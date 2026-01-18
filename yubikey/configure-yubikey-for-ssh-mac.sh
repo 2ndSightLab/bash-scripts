@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Connect to SSH first so your public key can be copoied to the remote server 
+# after you create the private key on your Yubikey
+
 # Configuration
 REMOTE_USER="your_username"
 REMOTE_HOST="your_server_ip"
